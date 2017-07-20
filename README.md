@@ -2,7 +2,7 @@
 
 ## About
 
-This is a short script used to update my `everything` blog posts to have a consistent `created_on` attribute. The project is hacky but it helped me get to my goal of a consistent, human-readable attribute in the metadata for these blog posts. I didn't even procrastinate this until the sky caved in. That's something.
+This is a short script used to update my `everything` blog posts to have a consistent `created_on` attribute. The project is hacky but it helped me get to my goal of a consistent, human-readable attribute in the metadata for these blog posts. I didn't even procrastinate this until the sky caved in. That's something. I doubt anyone else will find it useful, but I wanted to keep it here for future reference.
 
 I cribbed some of the code from an in-progress branch for `everything-blog`.
 
@@ -12,7 +12,7 @@ I also tried to take into account changes in date when I had moved across timezo
 
 ## Usage
 
-Usage: From project directory, start irb. Then you can run the commnand to get a consistent created_at attribute, then convert that time into a created_on date attribute.
+From project directory, start `irb`. Then you can run the first method to get a consistent `created_at` attribute, then the second method converts that time into a `created`_on date attribute.
 
 ```
 $ irb
